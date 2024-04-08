@@ -1,0 +1,212 @@
+
+  
+  footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    background-color: #23286b;
+    top: 230px;
+  }
+  
+  .container__footer {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
+  
+  .wrapper__footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .wrapper__footer .footer-widget {
+    width: calc(20% - 30px);
+    margin: 0 15px 50px;
+    padding: 0 6px;
+  }
+  
+  .wrapper__footer .footer-widget:nth-child(1) {
+    width: calc(40% - 50px);
+    margin-right: 15px;
+  }
+  
+  .footer__infos{
+    display: flex;
+    margin-left: 122px;
+  }
+
+  .footer__infos .descp{
+    margin-left: 15px;
+    color: white;
+    font-weight: 800;
+    font-size: 23px;
+    padding-top: 2%;
+  }
+
+
+  .wrapper__footer .footer-widget .logoX {
+    margin-bottom: 30px;
+    vertical-align: middle;
+    width: 40px;
+  }
+  
+  .wrapper__footer .footer-widget .desc {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .wrapper__footer .footer-widget .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wrapper__footer .footer-widget .socials li {
+    list-style: none;
+  }
+  
+  .wrapper__footer .footer-widget .socials li .link__footer {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper__footer .footer-widget .socials li .link__footer:hover {
+    background-color: #2ec0a5;
+  }
+  
+  .wrapper__footer .footer-widget .title__h6 {
+    color: white;
+    margin: 10px 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .wrapper__footer .footer-widget .links li {
+    list-style: none;
+  }
+  
+  .wrapper__footer .footer-widget .links li .link__footer {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 32px;
+    font-weight: 700;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper__footer .footer-widget .links li .link__footer:hover {
+    color: white;
+  }
+  
+  .copyright-wrapper {
+    padding: 20px 0;
+    border-top: 1px solid rgba(88, 89, 120, 0.4);
+  }
+  
+  .copyright-wrapper .desc {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .copyright-wrapper .desc .link__footer {
+    color: inherit;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+  }
+  .links{
+    margin-left: -11%;
+  }
+  .copyright-wrapper .desc .link__footer:hover {
+    color: #037ef3;
+  }
+
+  .footer__paragraph{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  }
+  
+  /* Let's write the media query */
+  @media (max-width: 992px) {
+    .container__footer {
+      max-width: 960px;
+    }
+  
+    .wrapper__footer .footer-widget,
+    .wrapper__footer .footer-widget:nth-child(1) {
+      width: calc(50% - 30px);
+    }
+
+    .socials{
+        margin-right: 45%;
+    }
+    .footer__infos .logoX{
+        margin-left: -130px;
+        height: 45px;
+    }
+
+
+    .footer__infos .descp{
+        text-align: left;
+        margin-left: -80px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .footer__paragraph{
+        text-align: left;
+        color: white;
+        font-size: 17px;
+      }
+  }
+  
+  @media (max-width: 768px) {
+    .container__footer {
+      max-width: 720px;
+    }
+    .socials{
+        margin-right: 45%;
+    }
+
+    .footer__infos .logoX{
+        margin-left: -130px;
+        height: 45px;
+    }
+
+    .footer__infos .descp{
+        text-align: left;
+        margin-left: -80px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .footer__paragraph{
+        text-align: left;
+        color: white;
+        font-size: 17px;
+      }
+    .wrapper__footer .footer-widget,
+    .wrapper__footer .footer-widget:nth-child(1) {
+      width: 100%;
+      margin: 0 10px 50px;
+    }
+  }
+  
